@@ -1,0 +1,31 @@
+[
+	{
+			"nom":"caféiene",
+			"type":"anti-fatigue",
+			"prix": "20"
+	},
+
+	{
+			"nom":"Curcumine",
+			"type":"anti-oxydant",
+			"prix": "30"
+	},
+	{
+			"nom":"quercetine",
+			"type":"anti-oxydant",
+			"prix": "50"
+	},
+	{
+			"nom":"Resveratrol",
+			"type":"anti-oxydant",
+			"prix": "45"
+	},
+
+
+	{
+			"nom":"Rhodiola rosea",
+			"type":"anti-fatigue",
+			"prix": "25"
+	}
+
+]

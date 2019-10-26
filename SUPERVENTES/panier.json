@@ -1,0 +1,39 @@
+[
+{
+	"email": "saadanassim12@yahoo.fr",
+	"produits": [
+	{
+		"reference":"0001", 
+		"categorie":"produitLaitiers", 
+		"designation":"lait", 
+		"prix": 18 
+	},
+	                                            
+	{
+		"reference":"0002", 
+		"categorie":"produitLegumes", 
+		"designation":"tomate", 
+		"prix":11
+	}
+	]
+},
+
+{
+	"email": "solyna12@yahoo.fr",
+	"produits":[
+	{
+		"reference":"0004", 
+		"categorie":"produitFruits", 
+		"designation":"pomme", 
+		"prix":12
+	},
+	{
+		"reference":"0005", 
+		"categorie":"produitLaitiers", 
+		"designation":"lait", 
+		"prix":3 
+	}
+	]
+}
+
+]

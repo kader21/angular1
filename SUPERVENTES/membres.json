@@ -1,0 +1,33 @@
+[
+	{
+		"nom":"delune", 
+		"prenom":"Claire", 
+		"email": "saadanassim12@yahoo.fr", 
+		"password":"129956" 
+	},
+	{
+		"nom":"nette", 
+		"prenom":"solina", 
+		"email": "solyna12@yahoo.fr", 
+		"password":"123456" 
+	},
+	{
+		"nom":"Sory", 
+		"prenom":"Sorya", 
+		"email": "sorya12@yahoo.fr", 
+	    "password":"123456" 
+	},
+
+	{
+		"nom":"FATOU", 
+		"prenom":"Fetima", 
+		"email": "fatou12@yahoo.fr", 
+		"password":"123456" 
+	},
+	{
+		"nom":"Cammarde", 
+		"prenom":"Kader", 
+		"email": "kader12@yahoo.fr", 
+		"password":"123456" 
+	}
+]

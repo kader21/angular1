@@ -1,0 +1,1 @@
+curl --header "Content-type: application/json; charset=UTF-8" -X POST --data '{"nom":"terki","prenom":"adel","email":"adelk@yahoo.com","password":"67159"}' localhost:8888/membre/connexion
