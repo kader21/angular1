@@ -1,0 +1,29 @@
+
+
+
+
+
+
+
+
+
+<form (ngSubmit)="onSubmit()" #inscriptionForm="ngForm">
+  
+
+  <label for="email">Email</label><br>
+  <input type="text" id="email" name="email" placeholder="Votre email.." [(ngModel)]="email" required>
+  <br />
+  <label for="MDP">Mot de Passe</label><br>
+  <input type="password" id="MDP" name="MDP" placeholder="Mont de passe.." [(ngModel)]="mdp" required>
+  
+  <label for="nom">Nom</label><br>
+  <input type="text" id="nom" name="nom" placeholder="nom.." [(ngModel)]="nom" required>
+  <br />
+  <label for="prenom">Prenom</label><br>
+  <input type="text" id="prenom" name="prenom" placeholder="prenom.." [(ngModel)]="prenom" required>
+  <br />
+  
+ 
+  <input type="submit" value="Ajoutez" (click)="validate()">
+
+  <p>{{message}} </p>

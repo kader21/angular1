@@ -1,0 +1,22 @@
+
+<div *ngIf="!(user | async)">
+  <p class="card-header mx-auto">En vous connectant, decouvrez nos:</p>
+  <div class="card-body">
+    <div *ngFor="let categorie of categories" class="card">
+      <p class="card-text mx-auto">{{categorie}}</p>
+    </div>
+  </div>
+</div>
+<div *ngIf="user|async">
+  <div class="card-header">Vous etes connecté:</div>
+
+  <div class="card-body">
+    <div *ngFor="let categorie of categories">
+      <p class="card-text mx-auto"> <input type="button" value="allez vite decouvrir nos {{categorie}}" 
+      (click)="produitsParCategorie(categorie)"/></p>
+
+    </div>
+
+  </div>
+
+</div>

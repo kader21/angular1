@@ -1,0 +1,19 @@
+
+
+
+
+
+
+  <div class="row justify-content-centre">
+    <div class="card-body">
+      <div *ngFor="let produit of produits" class="card">
+        <div class="card-text mx-auto"> {{produit['nom']}} ({{produit['type']}})
+          <div *ngIf="(user|async)"><button>mais achtez donc!</button>
+          </div>
+        </div>
+      </div>      
+    </div>
+   </div>
+
+
+  
